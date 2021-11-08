@@ -18,25 +18,25 @@ Before you run, install nvidia-docker&&docker!!!
 
 Just following this command line
 
-#1st: git down
+# 1st: git down
 ```
 git clone https://github.com/KNUAI2021/CorpusKorea_KNUAI
 ```
-#2nd: directory setting
+# 2nd: directory setting
 ```
 cd CorpusKorea_KNUAI
 ```
-#3rd: put your test_dataset in "CorpusKorea_KNUAI/corpus" directory!!!
+# 3rd: put your test_dataset in "CorpusKorea_KNUAI/corpus" directory!!!
 
-#4th: build docker image
+# 4th: build docker image
 ```
 docker build -t knuai .
 ```
-#5th: make container
+# 5th: make container
 ```
 nvidia-docker run -it --name knuai knuai
 ```
-#6th: run python evaluation.py --device cuda:0 --state_dir ./weights --test_file_dir ./corpus --output_dir ./
+# 6th: run python evaluation.py --device cuda:0 --state_dir ./weights --test_file_dir ./corpus --output_dir ./
 ```
 sh ./run.sh
 ```
