@@ -16,7 +16,7 @@
 
 Before you run, install nvidia-docker&&docker!!!
 
-Just following command line
+Just following this command line
 
 #1st: git down
 ```
