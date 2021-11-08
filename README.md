@@ -26,7 +26,7 @@ git clone https://github.com/KNUAI2021/CorpusKorea_KNUAI
 ```
 cd CorpusKorea_KNUAI
 ```
-#3rd: put your test_dataset in "corpus" directory!!!
+#3rd: put your test_dataset in "CorpusKorea_KNUAI/corpus" directory!!!
 
 #4th: build docker image
 ```
